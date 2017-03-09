@@ -1,2 +1,7 @@
-# LeetCode
-Solutions to LeetCode problems.
+# AmFaGoMi
+
+LeetCode problems 
+
+Cracking the coding interview 
+
+Codefights Interview Practice. 
