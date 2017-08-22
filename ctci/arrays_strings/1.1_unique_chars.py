@@ -12,8 +12,8 @@ def no_duplicates_no_structures(str_):
     """ Now without using additional data structures """
     for letter in str_:
         if str_.count(letter) > 1:
-            print(str_.count(letter))
+            print("The letter", letter, "has count", str_.count(letter))
             return False
     return True
 
-print(no_duplicates_no_structures("yolaw"))
+print(no_duplicates_no_structures("yolawy"))

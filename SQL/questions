@@ -1,0 +1,9 @@
+-- How to find the second highest salary?
+
+select MAX(Salary) from Employee WHERE Salary NOT IN (select MAX(Salary) from Employee );
+
+
+
+-- Question 2: SQL Query to find Max Salary from each department.
+
+SELECT DeptID, MAX(Salary) FROM Employee  GROUP BY DeptID.
